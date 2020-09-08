@@ -1,4 +1,4 @@
-# A foolproof way to shrink deep learning models**
+# A foolproof way to shrink deep learning models
 ## Researchers unveil a pruning algorithm to make artificial intelligence applications run faster.
 ### Kim Martineau | MIT Quest for Intelligence
 ### April 30, 2020
@@ -6,13 +6,15 @@
 ![learning_rate_rewinding](https://user-images.githubusercontent.com/52484999/92462385-5f8c2600-f205-11ea-9caa-7a1089e9e98b.png)
 
 
- PRESS INQUIRIES
+##### PRESS INQUIRIES
 MIT researchers have proposed a technique for shrinking deep learning models that they say is simpler and produces more accurate results than state-of-the-art methods. It works by retraining the smaller, pruned model at its faster, initial learning rate.
 Caption:MIT researchers have proposed a technique for shrinking deep learning models that they say is simpler and produces more accurate results than state-of-the-art methods. It works by retraining the smaller, pruned model at its faster, initial learning rate.
 Credits:Image: Alex Renda
+
+
 As more artificial intelligence applications move to smartphones, deep learning models are getting smaller to allow apps to run faster and save battery power. Now, MIT researchers have a new and better way to compress models. 
 
-It’s so simple that they unveiled it in a tweet last month: Train the model, prune its weakest connections, retrain the model at its fast, early training rate, and repeat, until the model is as tiny as you want. 
+It’s so simple that they unveiled (U)it in a tweet(/U) last month: Train the model, prune its weakest connections, retrain the model at its fast, early training rate, and repeat, until the model is as tiny as you want. 
 
 “That’s it,” says Alex Renda, a PhD student at MIT. “The standard things people do to prune their models are crazy complicated.” 
 
