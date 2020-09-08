@@ -14,7 +14,7 @@ Credits:Image: Alex Renda
 
 As more artificial intelligence applications move to smartphones, deep learning models are getting smaller to allow apps to run faster and save battery power. Now, MIT researchers have a new and better way to compress models. 
 
-It’s so simple that they unveiled <U>it in a tweet</U> last month: Train the model, prune its weakest connections, retrain the model at its fast, early training rate, and repeat, until the model is as tiny as you want. 
+It’s so simple that they unveiled __it in a tweet__ last month: Train the model, prune its weakest connections, retrain the model at its fast, early training rate, and repeat, until the model is as tiny as you want. 
 
 “That’s it,” says Alex Renda, a PhD student at MIT. “The standard things people do to prune their models are crazy complicated.” 
 
