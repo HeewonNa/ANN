@@ -13,7 +13,9 @@
 * 특징: CNN을 통한 ECG 데이터 Classification
 * 평가/측정 방법: 
 ![img1](./img/img1.PNG)
+
 4가지 class : normal sinus rhythm, arrhythmic, other kind of rhythm, very noisy
+
 * 결과:
 ![img2](./img/img2.PNG)
 단점: 계산 복잡도가 높다.
