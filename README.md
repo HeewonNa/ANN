@@ -3,40 +3,16 @@
 ##### Heewon Na
 ##### 인공신경망 (2020)
 
-![learning_rate_rewinding](https://user-images.githubusercontent.com/52484999/92462385-5f8c2600-f205-11ea-9caa-7a1089e9e98b.png)
+* 심박과 관련된 생체 신호인 ECG는 심장의 전기적 활동이 시간에 따라 어떻게 변하는지를 측정해 이것을 바탕으로 심박 수의 변화를 나타내는 심장 박동 변화(HRV)를 계산할 수 있다. 크게 시간 영역과 주파수 영역으로 나누어 측정하게 되는데, HRV는 자율신경계 활동을 분석하는 확실한 방법으로 알려져 스트레스 연구에도 효과적으로 알려져 있습니다.
+* 목표 : 현재 진행하고 있는 연구에서 수집할 ECG 데이터를 분석하기 위해 생성
+* HRV의 변화량에 집중하여 Task1, 2 이후 유의미한 변화가 있는지 분석
 
 
-##### PRESS INQUIRIES
-MIT researchers have proposed a technique for shrinking deep learning models that they say is simpler and produces more accurate results than state-of-the-art methods. It works by retraining the smaller, pruned model at its faster, initial learning rate.
-Caption:MIT researchers have proposed a technique for shrinking deep learning models that they say is simpler and produces more accurate results than state-of-the-art methods. It works by retraining the smaller, pruned model at its faster, initial learning rate.
-Credits:Image: Alex Renda
+##### 참고문헌 정리
+1. Pyakillya, B., Kazachenko, N., & Mikhailovsky, N. (2017) Deep Learning for ECG Classification, In Journal of physics: conference series
 
 
-As more artificial intelligence applications move to smartphones, deep learning models are getting smaller to allow apps to run faster and save battery power. Now, MIT researchers have a new and better way to compress models. 
 
-It’s so simple that they unveiled it **in a tweet** last month: Train the model, prune its weakest connections, retrain the model at its fast, early training rate, and repeat, until the model is as tiny as you want. 
-
-“That’s it,” says **Alex Renda**, a PhD student at MIT. “The standard things people do to prune their models are crazy complicated.” 
-
-Renda discussed the technique when the International Conference of Learning Representations (ICLR) convened remotely this month. Renda is a co-author of the work with **Jonathan Frankle**, a fellow PhD student in MIT’s **Department of Electrical Engineering and Computer Science** (EECS), and **Michael Carbin**, an assistant professor of electrical engineering and computer science — all members of the **Computer Science and Artificial Science Laboratory.  **
-
-The search for a better compression technique grew out of Frankle and Carbin’s award-winning **Lottery Ticket Hypothesis** paper at ICLR last year. They showed that a deep neural network could perform with only one-tenth the number of connections if the right subnetwork was found early in training. Their revelation came as demand for computing power and energy to train ever larger deep learning models was increasing exponentially, a trend that continues to this day. Costs of that growth include a rise in planet-warming carbon emissions and a potential drop in innovation as researchers not affiliated with big tech companies compete for scarce computing resources. Everyday users are affected, too. Big AI models eat up mobile-phone bandwidth and battery power.
-
-But at a colleague’s suggestion, Frankle decided to see what lessons it might hold for pruning, a set of techniques for reducing the size of a neural network by removing unnecessary connections or neurons. Pruning algorithms had been around for decades, but the field saw a resurgence after the breakout success of neural networks at classifying images in the **ImageNet competition**. As models got bigger, with researchers adding on layers of artificial neurons to boost performance, others proposed techniques for whittling them down. 
-
-**Song Han**, now an assistant professor at MIT, was one pioneer. Building on a series of influential papers, Han unveiled a pruning algorithm he called AMC, or **AutoML for model compression**, that’s still the industry standard. Under Han’s technique, redundant neurons and connections are automatically removed, and the model is retrained to restore its initial accuracy. 
-
-In response to Han’s work, Frankle recently suggested in an **unpublished paper** that results could be further improved by rewinding the smaller, pruned model to its initial parameters, or weights, and retraining the smaller model at its faster, initial rate. 
-
-In the current ICLR study, the researchers realized that the model could simply be rewound to its early training rate without fiddling with any parameters. In any pruning regimen, the tinier a model gets, the less accurate it becomes. But when the researchers compared this new method to Han’s AMC or Frankle’s weight-rewinding methods, it performed better no matter how much the model shrank. 
-
-It’s unclear why the pruning technique works as well as it does. The researchers say they will leave that question for others to answer. As for those who wish to try it, the algorithm is as easy to implement as other pruning methods, without time-consuming tuning, the researchers say. 
-
-“It’s the pruning algorithm from the ‘Book,’” says Frankle. “It’s clear, generic, and drop-dead simple.”
-
-Han, for his part, has now partly shifted focus from compression AI models to channeling AI to design small, efficient models from the start. His newest method, **Once for All**, also debuts at ICLR. Of the new learning rate method, he says: “I’m happy to see new pruning and retraining techniques evolve, giving more people access to high-performing AI applications.” 
-
-Support for the study came from the Defense Advanced Research Projects Agency, Google, MIT-IBM Watson AI Lab, MIT Quest for Intelligence, and the U.S. Office of Naval Research.
-
-[출처]
-<https://news.mit.edu/2020/foolproof-way-shrink-deep-learning-models-0430?fbclid=IwAR06_GqJ4mRd06xUH8WBOCbLiY0ApS1x0lsqoMhA7TUSEyGTAat1oCP1H6Q>
+2. Hong, S., Joung, D., Lee, J., Kim, D. Y., Kim, S., & Park, B. J. (2019). Effect of 2D Forest Video Viewing and Virtual Reality Forest Video Viewing on Stress Reduction in Adults. Journal of Korean Society of Forest Science
+* 특징: 2D 숲 동영상 및 VR 숲 동영상 시청이 성인의 스트레스 감소에 미치는 영향
+* 평가/측정 방법
