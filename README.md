@@ -1,7 +1,7 @@
-# A foolproof way to shrink deep learning models
-### Researchers unveil a pruning algorithm to make artificial intelligence applications run faster.
-##### Kim Martineau | MIT Quest for Intelligence
-##### April 30, 2020
+# ECGdeeplearning
+### DL기반 ECG 데이터 분석하기
+##### Heewon Na
+##### 인공신경망 (2020)
 
 ![learning_rate_rewinding](https://user-images.githubusercontent.com/52484999/92462385-5f8c2600-f205-11ea-9caa-7a1089e9e98b.png)
 
