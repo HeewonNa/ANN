@@ -24,6 +24,7 @@ CNN
 
 단점: 계산 복잡도가 높다.
 
+
 2. Hong, S., Joung, D., Lee, J., Kim, D. Y., Kim, S., & Park, B. J. (2019). Effect of 2D Forest Video Viewing and Virtual Reality Forest Video Viewing on Stress Reduction in Adults. Journal of Korean Society of Forest Science
 * 특징: 2D 숲 동영상 및 VR 숲 동영상 시청이 성인의 스트레스 감소에 미치는 영향 (실험 과정이 진행하고 있는 프로젝트와 유사)
 * 평가/측정 방법:
